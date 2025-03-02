@@ -4,7 +4,7 @@ import { Suspense } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Details } from './components/Details'; 
 import { Footer } from './components/Footer';
-import { Header } from './Components/Header';
+import { Header } from './components/Header';
 import { Banks } from './components/Banks';
 import { MoodBoard } from './components/MoodBoard' 
 function App() {
