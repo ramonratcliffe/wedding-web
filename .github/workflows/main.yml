@@ -35,8 +35,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Set Vite base path for GitHub Pages
+        run: echo "VITE_BASE=ramonratcliffe/ramonratcliffe.github.io/" >> $GITHUB_ENV
+
       - name: Build project
         run: npm run build
+        env:
+          VITE_BASE: "/ramonratcliffe.github.io/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
