@@ -21,7 +21,7 @@ import sabiSquare from './sabiSquare.jpg';
 import sabiView from './sabiView.webp';
 import us1 from './us1.jpg';
 import leaf from './leaf.png';
-import ladies from './inspiration/ladies.jpg'
+import ladies from './inspiration/Ladies.jpg'
 import carolina from './carolina.jpg'
 export { 
   carolina,
