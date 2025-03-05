@@ -28,9 +28,9 @@ export default function WrappedApp() {
   return (
     <div className="flex justify-center items-center">
     <Suspense fallback="Loading" >
-      <Router basename="/">
+      <Router basename="/wedding-web/">
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="" element={<App />} />
           <Route path="/details" element={<Details />} />
           <Route path="/banks" element={<Banks/>} />
           <Route path="/looks" element={<MoodBoard />} /> 
